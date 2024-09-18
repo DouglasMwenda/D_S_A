@@ -7,6 +7,7 @@ fun bubbleSort(arr: Array<Int>) {
     for (i in 0 until n - 1) {
         swapped = false
 
+
         for (j in 0 until n - i - 1) {
             if (arr[j] > arr[j + 1]) {
                 // Swap arr[j] and arr[j + 1]
